@@ -1,7 +1,7 @@
 #include "../catch.hpp"
 #include "../../src/WordsDB/WordsDB.hh"
 
-TEST_CASE("Checking creation of words pull from WordsDB") {
+TEST_CASE("Testing creation of words pull from WordsDB") {
     std::vector<WordElement> wordsPull;
 
     SECTION("Cheking mask with 1 and 3 topics") {
